@@ -25,8 +25,7 @@ implementations.
 
 - [Windows DJM-850 Setting Utility](doc/windows-djm-850-setting-utility/README.md) :
     - [x] Study the discussion when plugging in the device to the computer.
-    - [ ] Study the discussion when plugging out the device from the computer.
-See if there are any relevant or interesting informations there.
+    - [x] Study the discussion when plugging out the device from the computer.
     - [x] Study the `Mixer input` tab and determine the communication for the
 available options.
     - [x] Study the `Mixer output` tab and determine the communication for the
