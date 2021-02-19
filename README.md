@@ -20,6 +20,7 @@ implementations.
 - [Windows DJM-850 Setting Utility](doc/windows-djm-850-setting-utility/README.md)
 - [Roadmap](#roadmap)
 - [Firmware and driver versions](#firmware-and-driver-versions)
+- [Legal notices](#legal-notices)
 
 ## Roadmap
 
@@ -30,7 +31,7 @@ implementations.
 available options.
     - [x] Study the `Mixer output` tab and determine the communication for the
 available options.
-    - [ ] Study the `ASIO` tab and determine the communication for the
+    - [x] Study the `ASIO` tab and determine the communication for the
 available options.
     - [x] Explain the autolaunch behavior of the Setting Utility.
 - DVS (Digital Vinyl System) usage on Windows :
@@ -51,3 +52,9 @@ mixer with firmware version 1.10 (2013.07.31), and by using the Windows driver
 version 1.500 (2020.07.28).
 
 See the firmware and driver versions on the [official download page](https://www.pioneerdj.com/en/support/software/djm-850/).
+
+## Legal notices
+
+- Pionner, the Pioneer logo, Pioneer DJ and the Pioneer DJ logo are registered
+trademarks of Pioneer Corporation.
+- ASIO is a trademark and software of Steinberg Media Technologies GmbH.
