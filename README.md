@@ -24,9 +24,7 @@ implementations.
 ## Roadmap
 
 - [Windows DJM-850 Setting Utility](doc/windows-djm-850-setting-utility/README.md) :
-    - [ ] Study the discussion when plugging in the device to the computer.
-There might have some informations gathered from the device by the computer
-in order to determine the values of the `Mixer output` tab.
+    - [x] Study the discussion when plugging in the device to the computer.
     - [ ] Study the discussion when plugging out the device from the computer.
 See if there are any relevant or interesting informations there.
     - [x] Study the `Mixer input` tab and determine the communication for the
