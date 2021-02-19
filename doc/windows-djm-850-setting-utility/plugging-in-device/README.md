@@ -44,8 +44,12 @@ usb.transfer_type == URB_CONTROL && usb.endpoint_address.direction == OUT
 
 ![USB output options frames](screenshots/usb_output_options_frames.jpg)
 
-The Setting Utility is able to send the latest configured options for USB
-output when it launches, which means that it is also able to store these options
+These 5 requests are the USB output options settings : one per USB X/Y output
+audio source, and one for the USB output level. The device also responds to
+these requests by aknowledging the options configuration.
+
+As the Setting Utility is able to send the latest configured options for USB
+output when it launches, it means that it is also able to store these options
 on the computer, in order to send them to the device for the next launch.
 
 ## Configuration storage
