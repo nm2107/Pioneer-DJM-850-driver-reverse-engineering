@@ -10,7 +10,7 @@ are its features and how it communicates with the device.
 - [`Mixer output` tab](mixer-output-tab/README.md)
 - `ASIO` tab
 - [Plugging in the device](plugging-in-device/README.md)
-- Plugging out the device
+- [Plugging out the device](plugging-out-device/README.md)
 - [Setting Utility autolaunch](autolaunch.md)
 
 ## Presentation
