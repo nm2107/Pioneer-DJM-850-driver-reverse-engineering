@@ -6,11 +6,12 @@ are its features and how it communicates with the device.
 *Table of contents :*
 
 - [Presentation](#presentation)
-- [Plugging in the device](plugging-in-device/README.md)
-- Plugging out the device
 - [`Mixer input` tab](mixer-input-tab/README.md)
 - [`Mixer output` tab](mixer-output-tab/README.md)
 - `ASIO` tab
+- [Plugging in the device](plugging-in-device/README.md)
+- Plugging out the device
+- [Setting Utility autolaunch](autolaunch.md)
 
 ## Presentation
 

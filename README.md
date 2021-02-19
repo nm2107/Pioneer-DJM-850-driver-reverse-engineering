@@ -33,6 +33,7 @@ available options.
 available options.
     - [ ] Study the `ASIO` tab and determine the communication for the
 available options.
+    - [x] Explain the autolaunch behavior of the Setting Utility.
 - DVS (Digital Vinyl System) usage on Windows :
     - [ ] Study the discussion between the device and the computer when the
 device is in use for DVS.
