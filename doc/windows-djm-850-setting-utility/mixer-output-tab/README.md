@@ -12,7 +12,7 @@
     - [USB output audio routing response](#usb-output-audio-routing-response)
     - [USB output level request](#usb-output-level-request)
     - [USB output level response](#usb-output-level-response)
-- [Implementation](#implementation)
+- [Implementation guide](#implementation-guide)
     - [Crafting requests to set USB output audio routing](#crafting-requests-to-set-usb-output-audio-routing)
     - [Crafting requests to set USB output level](#crafting-requests-to-set-usb-output-level)
     - [Reading responses](#reading-responses)
@@ -424,7 +424,7 @@ USB URB
     [bInterfaceClass: Unknown (0xffff)]
 ```
 
-## Implementation
+## Implementation guide
 
 From the above frame details and response data analysis, we can issue some
 details in order to implement the features of the `Mixer output` tab.

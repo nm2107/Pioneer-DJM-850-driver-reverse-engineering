@@ -6,7 +6,7 @@
 - [USB frame capture workflow](#usb-frame-capture-workflow)
 - [Discussion details](#discussion-details)
 - [Configuration storage](#configuration-storage)
-- [Implementation](#implementation)
+- [Implementation guide](#implementation-guide)
 
 ## Presentation
 
@@ -80,7 +80,7 @@ values sent to the device. I don't know why the values differ, but this is an
 implementation detail of the way the Setting Utility stores the config, and what
 really matters here is that we are now aware that this config is stored.
 
-## Implementation
+## Implementation guide
 
 The clone of the Setting Utility should also send the latest used USB output
 configuration to the device when it launches and the device is plugged in.

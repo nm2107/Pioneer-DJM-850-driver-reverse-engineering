@@ -8,7 +8,7 @@
 - [Frame details](#frame-details)
     - [Request](#request)
     - [Response](#response)
-- [Implementation](#implementation)
+- [Implementation guide](#implementation-guide)
     - [Crafting requests](#crafting-requests)
     - [Reading responses](#reading-responses)
 
@@ -248,7 +248,7 @@ response data. Here, it indicates that all the switches are on the left
 (`CD/Line` position). See the [switches positions map](#switches-positions-map)
 chapter for more details.
 
-## Implementation
+## Implementation guide
 
 From the above frame details and response data analysis, we can issue some
 details in order to implement the features of the `Mixer input` tab.
