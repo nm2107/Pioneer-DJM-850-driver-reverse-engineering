@@ -206,7 +206,7 @@ Device Status:     0x0001
 - Alternate Setting : `0`
 - Interface Class : `Vendor Specific Class`
 - Description : used to configure the USB output settings, via endpoint number
-`0`. See the [`Mixer output` tab](windows-djm-850-setting-utility/README.md)
+`0`. See the [`Mixer output` tab](windows-djm-850-setting-utility/mixer-output-tab/README.md)
 documentation for interface usage details.
 
 ### Second Interface Descriptor
