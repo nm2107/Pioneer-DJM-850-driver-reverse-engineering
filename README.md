@@ -39,8 +39,17 @@ available options.
     - [x] Study the transmitted messages when the mixer is plugged into the
 computer without being used (neither by user nor opened GUI software).
 - DVS (Digital Vinyl System) usage on Windows :
-    - [ ] Study the discussion between the device and the computer when the
-device is in use for DVS.
+    - [ ] Determine how the timecode signal is sent to the computer, and how
+the computer sends music signal to the mixer.
+    - [ ] Determine how could the received music signal match the sent timecode
+signal.
+    - [ ] Determine how the left and right audio channels are modelized in
+the digital audio signal.
+    - [ ] Determine how the USB `1/2`, `3/4`, `5/6` and `7/8` signal routing
+is modelized.
+    - [ ] Determine how the driver frame rate is modelized and used.
+    - [ ] Determine how the audio buffer length (in frames count) is modelized
+and used.
 
 I have no plans to study the behavior of MIDI communications (I'm mostly
 interested into DVS), so feel free to submit pull requests with your
