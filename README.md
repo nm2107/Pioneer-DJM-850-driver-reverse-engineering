@@ -18,6 +18,7 @@ implementations.
 - [Workstation setup](doc/workstation-setup.md)
 - [USB device specifications](doc/usb-device-specifications.md)
 - [Windows DJM-850 Setting Utility](doc/windows-djm-850-setting-utility/README.md)
+- [Plugged in idle behavior](doc/plugged-in-idle-behavior/README.md)
 - [Roadmap](#roadmap)
 - [Firmware and driver versions](#firmware-and-driver-versions)
 - [Legal notices](#legal-notices)
@@ -34,6 +35,9 @@ available options.
     - [x] Study the `ASIO` tab and determine the communication for the
 available options.
     - [x] Explain the autolaunch behavior of the Setting Utility.
+- [Plugged in idle behavior](doc/plugged-in-idle-behavior/README.md)
+    - [x] Study the transmitted messages when the mixer is plugged into the
+computer without being used (neither by user nor opened GUI software).
 - DVS (Digital Vinyl System) usage on Windows :
     - [ ] Study the discussion between the device and the computer when the
 device is in use for DVS.
