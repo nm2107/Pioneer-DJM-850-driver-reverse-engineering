@@ -205,8 +205,8 @@ Device Status:     0x0001
 - Interface Number : `0`
 - Alternate Setting : `0`
 - Interface Class : `Vendor Specific Class`
-- Description : used to configure the USB output settings, via endpoint number
-`0`. See the [`Mixer output` tab](windows-djm-850-setting-utility/mixer-output-tab/README.md)
+- Description : may be used to configure the USB output settings, via endpoint
+number `0`. See the [`Mixer output` tab](windows-djm-850-setting-utility/mixer-output-tab/README.md)
 documentation for interface usage details.
 
 ### Second Interface Descriptor
@@ -215,8 +215,10 @@ documentation for interface usage details.
 - Alternate Setting : `1`
 - Interface Class : `Vendor Specific Class`
 - Description : exposes endpoints number `5` and `6` for `ISOCHRONOUS` `URB in`
-and `URB out` requests and responses. Used for DVS on the 24bits A/D and D/A
-audio converter (ASIO and Core Audio compatible).
+and `URB out` requests and responses. Uses the 24bits A/D and D/A audio
+converter (ASIO and Core Audio compatible).
+As explained in [the manual](#details-from-the-user-manual), this interface
+can be used for sound capture, playback, and both at the same time for DVS.
 The `wMaxPacketSize` attribute has a value of `1024 bytes`, which indicates that
 these endpoints are on an USB high speed device (i.e. USB 2.0).
 
@@ -225,9 +227,9 @@ these endpoints are on an USB high speed device (i.e. USB 2.0).
 - Interface Number : `1`
 - Alternate Setting : `0`
 - Interface Class : `Audio Control Device`
-- Description : may be the interface related to the 32bits A/D and D/A  audio
-converter, which can be used for classic audio playback and recording hover USB
-(i.e. not for DVS usage).
+- Description : may be the interface related to the master 32bits A/D and D/A
+audio converter. However no endpoints seems to be exposed. This interface may
+to be for internal needs.
 
 ### Fourth Interface Descriptor
 
