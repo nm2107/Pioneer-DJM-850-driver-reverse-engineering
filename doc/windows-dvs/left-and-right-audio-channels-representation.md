@@ -18,7 +18,7 @@ playback :
 
 *normal timecode and music signals usage :*
 
-- [left and right RCA cables plugged into the mixer input, playing a stereo file on mixxx](captures/usb12_lrinput_lroutput_256samples_44100Hz.pcapng)
+- [left and right RCA cables plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_lrinput_lroutput_256samples_44100Hz.pcapng)
 
 *timecode signal variations :*
 
@@ -38,7 +38,7 @@ All these captures were done on the `USB 1/2` channel.
 
 ## Left and right audio channels on music signal
 
-### Left and right audio channel
+### Left and right audio channels
 
 On the capture file when both left and right audio channels are present for the
 music signal, we have the following data chunk which is sent :
