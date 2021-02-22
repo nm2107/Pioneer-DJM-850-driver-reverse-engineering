@@ -44,7 +44,7 @@ computer without being used (neither by user nor opened GUI software).
 the computer sends music signal to the mixer.
     - [x] Determine how the left and right audio channels are modelized in
 the digital audio signal.
-    - [ ] Determine how the USB `1/2`, `3/4`, `5/6` and `7/8` signal routing
+    - [x] Determine how the USB `1/2`, `3/4`, `5/6` and `7/8` signal routing
 is modelized.
     - [ ] Determine how the driver frame rate is modelized and used.
     - [ ] Determine how the audio buffer length (in frames count) is modelized

@@ -10,3 +10,4 @@ the transferred data.
 
 - [Timecode and music signals transfer](timecode-and-music-signals-transfer/README.md)
 - [Left and right audio channels representation](left-and-right-audio-channels-representation.md)
+- [USB channels routing representation](usb-channels-routing-representation.md)

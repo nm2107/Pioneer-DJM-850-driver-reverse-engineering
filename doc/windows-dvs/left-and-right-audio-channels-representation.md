@@ -67,7 +67,7 @@ The complete `ISO Data` of this chunk is the following :
 ```
 
 We can see that the first six bytes of the data are filled
-(`4e af fe d9 7a ff`), and then we have twenty four empty bytes, until we
+(`4e af fe d9 7a ff`), and then we have eighteen empty bytes, until we
 encounter another block of six filled bytes (`16 dd fe 5d de ff`),
 and so on ...
 
@@ -89,7 +89,7 @@ the music signal, we have the following :
 
 We can see that this time, we have only the first three bytes that are filled
 (`6e 7c fc`), the next three bytes are silent (`00 00 00`).
-Then, we have twenty four empty bytes, and we encounter again a six bytes block
+Then, we have eighteen empty bytes, and we encounter again a six bytes block
 with only the three first bytes filled, and so on ...
 
 ### Right audio channel
@@ -110,9 +110,8 @@ signal, we have the following :
 ```
 
 This time, the first three bytes are empty (`00 00 00`), then we have data on
-the next three bytes (`85 ac ff`). Next, twenty four empty bytes until we
-encounter a new six bytes block with the first three bytes being emtpy, and so
-on ...
+the next three bytes (`85 ac ff`). Next, eighteen empty bytes until we encounter
+a new six bytes block with the first three bytes being emtpy, and so on ...
 
 ## Left and right audio channels on timecode signal
 
