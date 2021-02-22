@@ -19,6 +19,7 @@ implementations.
 - [USB device specifications](doc/usb-device-specifications.md)
 - [Windows DJM-850 Setting Utility](doc/windows-djm-850-setting-utility/README.md)
 - [Plugged in idle behavior](doc/plugged-in-idle-behavior/README.md)
+- [DVS (Digital Vinyl System) usage on Windows](doc/windows-dvs/README.md)
 - [Roadmap](#roadmap)
 - [Firmware and driver versions](#firmware-and-driver-versions)
 - [Legal notices](#legal-notices)
@@ -38,14 +39,12 @@ available options.
 - [Plugged in idle behavior](doc/plugged-in-idle-behavior/README.md)
     - [x] Study the transmitted messages when the mixer is plugged into the
 computer without being used (neither by user nor opened GUI software).
-- DVS (Digital Vinyl System) usage on Windows :
-    - [ ] Determine how the timecode signal is sent to the computer, and how
+- [DVS (Digital Vinyl System) usage on Windows](doc/windows-dvs/README.md) :
+    - [x] Determine how the timecode signal is sent to the computer, and how
 the computer sends music signal to the mixer.
-    - [ ] Determine how could the received music signal match the sent timecode
-signal.
-    - [ ] Determine how the left and right audio channels are modelized in
+    - [x] Determine how the left and right audio channels are modelized in
 the digital audio signal.
-    - [ ] Determine how the USB `1/2`, `3/4`, `5/6` and `7/8` signal routing
+    - [x] Determine how the USB `1/2`, `3/4`, `5/6` and `7/8` signal routing
 is modelized.
     - [ ] Determine how the driver frame rate is modelized and used.
     - [ ] Determine how the audio buffer length (in frames count) is modelized
@@ -70,4 +69,5 @@ See the firmware and driver versions on the [official download page](https://www
 
 - Pionner, the Pioneer logo, Pioneer DJ and the Pioneer DJ logo are registered
 trademarks of Pioneer Corporation.
+- Windows is a registered trademark of Microsoft Corporation.
 - ASIO is a trademark and software of Steinberg Media Technologies GmbH.
