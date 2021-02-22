@@ -9,3 +9,4 @@ the transferred data.
 *Table of contents :*
 
 - [Timecode and music signals transfer](timecode-and-music-signals-transfer/README.md)
+- [Left and right audio channels representation](left-and-right-audio-channels-representation.md)

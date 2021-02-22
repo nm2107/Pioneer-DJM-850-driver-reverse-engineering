@@ -42,7 +42,7 @@ computer without being used (neither by user nor opened GUI software).
 - [DVS (Digital Vinyl System) usage on Windows](doc/windows-dvs/README.md) :
     - [x] Determine how the timecode signal is sent to the computer, and how
 the computer sends music signal to the mixer.
-    - [ ] Determine how the left and right audio channels are modelized in
+    - [x] Determine how the left and right audio channels are modelized in
 the digital audio signal.
     - [ ] Determine how the USB `1/2`, `3/4`, `5/6` and `7/8` signal routing
 is modelized.
