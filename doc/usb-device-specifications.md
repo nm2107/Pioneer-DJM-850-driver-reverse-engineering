@@ -217,6 +217,8 @@ documentation for interface usage details.
 - Description : exposes endpoints number `5` and `6` for `ISOCHRONOUS` `URB in`
 and `URB out` requests and responses. Used for DVS on the 24bits A/D and D/A
 audio converter (ASIO and Core Audio compatible).
+The `wMaxPacketSize` attribute has a value of `1024 bytes`, which indicates that
+these endpoints are on an USB high speed device (i.e. USB 2.0).
 
 ### Third Interface Descriptor
 
