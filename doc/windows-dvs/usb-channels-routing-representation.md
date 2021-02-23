@@ -158,6 +158,11 @@ Length [bytes]: 120
 
 120 / 24 = 5 . In this chunk, there are 5 audio frames.
 
+We can say that the frame format is `s24_le` (a.k.a. `S24_3LE` for ALSA), as
+we're transmitting numbers representing a polarized wave, hence they should be
+signed (`s`) ; the number length is on 24bits (`24`) ; and the first transmitted
+byte represents the smallest value of the number (little endian, `le`).
+
 ## Implementation guide
 
 ### Reading audio frames

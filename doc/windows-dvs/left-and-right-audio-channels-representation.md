@@ -158,3 +158,9 @@ left channel, and the last three are for the right channel.
 From the [USB device specifications](../usb-device-specifications.md), we saw
 that the USB soundcard was a 24bits soundcard, so this is why the audio channels
 are encoded on three bytes : 3bytes = 3 * 8bits = 24bits.
+
+Additionally, the small variations measured on timecode signal transfer when the
+RCA input cables were not plugged in (i.e. measuring `05 00 00` whereas
+`00 00 00` is expected) are indicating that the LSB is on the left (i.e. the
+24bits information is stored with a little endian, as the smallest value is
+transmitted first).
