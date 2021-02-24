@@ -36,7 +36,7 @@ available options.
     - [x] Study the `ASIO` tab and determine the communication for the
 available options.
     - [x] Explain the autolaunch behavior of the Setting Utility.
-- [Plugged in idle behavior](doc/plugged-in-idle-behavior/README.md)
+- [Plugged in idle behavior](doc/plugged-in-idle-behavior/README.md) :
     - [x] Study the transmitted messages when the mixer is plugged into the
 computer without being used (neither by user nor opened GUI software).
 - [DVS (Digital Vinyl System) usage on Windows](doc/windows-dvs/README.md) :
