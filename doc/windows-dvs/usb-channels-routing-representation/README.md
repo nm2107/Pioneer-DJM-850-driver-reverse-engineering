@@ -19,7 +19,7 @@
 In order to determine how the USB channels routing was represented in both
 timecode and music audio streams, I did the following captures :
 
-- [DVS usage on `USB 1/2` channel only](captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
+- [DVS usage on `USB 1/2` channel only](../left-and-right-audio-channels-representation/captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
 - [DVS usage on `USB 3/4` channel only](captures/usb34_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
 - [DVS usage on `USB 5/6` channel only](captures/usb56_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
 - [DVS usage on `USB 7/8` channel only](captures/usb78_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
