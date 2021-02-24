@@ -55,7 +55,7 @@ there was variations in the `Data Fragment` field of the request :
 | 48000Hz          | `80bb00`              |
 | 96000Hz          | `007701`              |
 
-The framerate information is stored on three bytes.
+The framerate information is stored on three bytes, little endian.
 
 Once the framerate is set, the computer can initiate the audio streams.
 
