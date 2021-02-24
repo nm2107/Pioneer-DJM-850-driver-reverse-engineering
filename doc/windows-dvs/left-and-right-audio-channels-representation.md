@@ -18,18 +18,18 @@ playback :
 
 *normal timecode and music signals usage :*
 
-- [left and right RCA cables plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_lrinput_lroutput_256samples_44100Hz.pcapng)
+- [left and right RCA cables plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
 
 *timecode signal variations :*
 
-- [left RCA cable only plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_linput_lroutput_256samples_44100Hz.pcapng)
-- [right RCA cable only plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_rinput_lroutput_256samples_44100Hz.pcapng)
-- [no RCA cables plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_noinput_lroutput_256samples_44100Hz.pcapng)
+- [left RCA cable only plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_linput_lroutput_23.2msbuffer_44100Hz.pcapng)
+- [right RCA cable only plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_rinput_lroutput_23.2msbuffer_44100Hz.pcapng)
+- [no RCA cables plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_noinput_lroutput_23.2msbuffer_44100Hz.pcapng)
 
 *music signal variations :*
 
-- [left and right RCA cables plugged into the mixer input, playing an audio file with muted right channel](captures/usb12_lrinput_loutput_256samples_44100Hz.pcapng)
-- [left and right RCA cables plugged into the mixer input, playing an audio file with muted left channel](captures/usb12_lrinput_routput_256samples_44100Hz.pcapng)
+- [left and right RCA cables plugged into the mixer input, playing an audio file with muted right channel](captures/usb12_lrinput_loutput_23.2msbuffer_44100Hz.pcapng)
+- [left and right RCA cables plugged into the mixer input, playing an audio file with muted left channel](captures/usb12_lrinput_routput_23.2msbuffer_44100Hz.pcapng)
 
 Then, I just had to compare these captures to see the differences when an audio
 channel was used or not.

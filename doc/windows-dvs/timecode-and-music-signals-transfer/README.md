@@ -45,7 +45,7 @@ be able to transfer chunks of data, and it's not compromising if a chunk gets
 lost (it'll only cut the sound a bit).
 
 You can see the capture file there :
-[`../captures/usb12_lrinput_lroutput_256samples_44100Hz.pcapng`](../captures/usb12_lrinput_lroutput_256samples_44100Hz.pcapng).
+[`../captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng`](../captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng).
 The capture duration is about 3 seconds. We can see that there are a lot of
 messages, due to the framerate and buffer samples size.
 
