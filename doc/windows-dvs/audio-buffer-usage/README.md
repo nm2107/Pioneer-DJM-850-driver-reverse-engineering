@@ -13,7 +13,7 @@ the 5.8ms buffer size.
 
 This gave me 2 capture files :
 
-- [23.2ms buffer size](../left-and-right-audio-channels-representation/captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
+- [23.2ms buffer size](../common-captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
 - [5.8ms buffer size](captures/usb12_lrinput_lroutput_5.8msbuffer_44100Hz.pcapng)
 
 However, by inspecting the capture files, I did not find any difference on the

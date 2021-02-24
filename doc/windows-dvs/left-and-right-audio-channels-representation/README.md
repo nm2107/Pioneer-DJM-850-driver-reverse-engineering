@@ -18,7 +18,7 @@ playback :
 
 *normal timecode and music signals usage :*
 
-- [left and right RCA cables plugged into the mixer input, playing a stereo file in mixxx](captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
+- [left and right RCA cables plugged into the mixer input, playing a stereo file in mixxx](../common-captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
 
 *timecode signal variations :*
 

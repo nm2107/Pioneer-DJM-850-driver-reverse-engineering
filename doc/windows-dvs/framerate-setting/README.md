@@ -228,6 +228,9 @@ of the `Data Fragment` field.
 
 ### Reading response
 
+The device should send a response having the following attributes when the
+framerate setting has been aknowledged :
+
 ```
 USB URB
     URB type: URB_COMPLETE ('C')

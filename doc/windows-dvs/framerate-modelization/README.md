@@ -17,7 +17,7 @@ the 48000Hz and 96000Hz framerates.
 
 This gave me 3 capture files :
 
-- [44100Hz](../left-and-right-audio-channels-representation/captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
+- [44100Hz](../common-captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng)
 - [48000Hz](captures/usb12_lrinput_lroutput_23.2msbuffer_48000Hz.pcapng)
 - [96000Hz](captures/usb12_lrinput_lroutput_23.2msbuffer_96000Hz.pcapng)
 
