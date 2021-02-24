@@ -62,5 +62,6 @@ But generally, the DJ software offer the possibility to select the sound API
 to use, as long as the sampling rate and the buffer size of the transmitted
 audio.
 
-So, in the end, I'm not really sure about the usage of this panel nor settings
-for now.
+*Note :* the usage and configuration of the framerate and audio buffer length
+are now detailed in the [DVS usage on Windows](../../windows-dvs/README.md)
+documentation.

@@ -46,9 +46,8 @@ the computer sends music signal to the mixer.
 the digital audio signal.
     - [x] Determine how the USB `1/2`, `3/4`, `5/6` and `7/8` signal routing
 is modelized.
-    - [ ] Determine how the driver frame rate is modelized and used.
-    - [ ] Determine how the audio buffer length (in frames count) is modelized
-and used.
+    - [x] Determine how the framerate is modelized and used.
+    - [x] Determine how the audio buffer is used.
 
 I have no plans to study the behavior of MIDI communications (I'm mostly
 interested into DVS), so feel free to submit pull requests with your

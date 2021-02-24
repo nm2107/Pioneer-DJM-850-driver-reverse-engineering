@@ -9,5 +9,8 @@ the transferred data.
 *Table of contents :*
 
 - [Timecode and music signals transfer](timecode-and-music-signals-transfer/README.md)
-- [Left and right audio channels representation](left-and-right-audio-channels-representation.md)
-- [USB channels routing representation](usb-channels-routing-representation.md)
+- [Left and right audio channels representation](left-and-right-audio-channels-representation/README.md)
+- [USB channels routing representation](usb-channels-routing-representation/README.md)
+- [Framerate modelization](framerate-modelization/README.md)
+- [Framerate setting](framerate-setting/README.md)
+- [Audio buffer usage](audio-buffer-usage/README.md)

@@ -44,15 +44,14 @@ correctly (it makes me think a bit to `UDP` on this point), the main goal is to
 be able to transfer chunks of data, and it's not compromising if a chunk gets
 lost (it'll only cut the sound a bit).
 
-You can see the capture file there :
-[`../captures/usb12_lrinput_lroutput_256samples_44100Hz.pcapng`](../captures/usb12_lrinput_lroutput_256samples_44100Hz.pcapng).
+You can see the capture file there : [`../common-captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng`](../common-captures/usb12_lrinput_lroutput_23.2msbuffer_44100Hz.pcapng).
 The capture duration is about 3 seconds. We can see that there are a lot of
 messages, due to the framerate and buffer samples size.
 
 ## Frame details
 
-This chapter details how the timecode signal is read and returned as a music
-signal.
+This chapter details how the timecode signal is received, and how the music
+signal is sent.
 
 ### Timecode signal request
 
