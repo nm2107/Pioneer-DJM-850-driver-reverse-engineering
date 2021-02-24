@@ -13,3 +13,4 @@ the transferred data.
 - [USB channels routing representation](usb-channels-routing-representation/README.md)
 - [Framerate modelization](framerate-modelization/README.md)
 - [Framerate setting](framerate-setting/README.md)
+- [Audio buffer usage](audio-buffer-usage/README.md)
