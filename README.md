@@ -2,14 +2,11 @@
 
 This repository contains the study of the [Pioneer DJM-850](https://www.pioneerdj.com/en-us/product/mixer/archive/djm-850/silver/overview/)
 Windows driver and setting utility. The aim of this study is to understand how
-the computer and the device are communicating hover USB, in order to be able
-to write a driver and a clone of the Windows setting utility for a GNU/Linux
-system, as Pioneer
+the computer and the device are communicating hover USB, in order to support it
+on a GNU/Linux system, as Pioneer
 [do not plan to write anything for this platform](https://forums.pioneerdj.com/hc/en/community/posts/203039979--SOLVED-DJM850-900-Linux-progress-).
 
-This repository contains the reverse engineering results, also explains the RE
-process and can be used as a reference for the driver and setting utility
-implementations.
+The reverse engineering process and results are exposed in this repository.
 
 ![Pioneer DJM-850-S](img/DJM-850-S.jpg)
 
@@ -21,6 +18,7 @@ implementations.
 - [Plugged in idle behavior](doc/plugged-in-idle-behavior/README.md)
 - [DVS (Digital Vinyl System) usage on Windows](doc/windows-dvs/README.md)
 - [Roadmap](#roadmap)
+- [Linux support](#linux-support)
 - [Firmware and driver versions](#firmware-and-driver-versions)
 - [Legal notices](#legal-notices)
 
@@ -55,6 +53,28 @@ results. However, by looking a the
 [USB device specifications](doc/usb-device-specifications.md),
 the MIDI interface (communicating on endpoint 7) does not seem to be a
 `Vendor specific class`, so MIDI may already be supported out of the box.
+
+## Linux support
+
+The Linux kernel was updated to add support for this mixer :
+
+- [Fix Pioneer DJM devices `URB_CONTROL` request direction to set samplerate](https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git/commit/?h=for-linus&id=2c9119001dcb1dc7027257c5d8960d30f5ba58be),
+scheduled for Linux 5.12.
+- Add Pioneer DJM-850 support, scheduled for Linux 5.13 :
+    - [PATCH 1/4](https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git/commit/?h=for-next&id=a3c30b0cb6d05f5bf66d1a5d42e876f31753a447)
+    - [PATCH 2/4](https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git/commit/?h=for-next&id=7687850b95b4883b7a4778be45576d8288603ee6)
+    - [PATCH 3/4](https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git/commit/?h=for-next&id=1a2a94a4392d5d1e5e25cc127573452f4c7fa9b8)
+    - [PATCH 4/4](https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git/commit/?h=for-next&id=b8db8be812cb2c08cd8f6d12c6c773c198be83f1)
+
+You can now use the mixer on GNU/Linux and specify the USB output options
+(as on the `Mixer output` tab of the Setting Utility) via the `alsamixer`
+command :
+
+![Alsamixer](img/alsamixer.jpg)
+
+*Notice that the controls are displayed on the `Playback` view even if they
+should be on the `Capture` view, but they are effective. This little bug is
+known across DJM devices support for Linux and should be adressed.*
 
 ## Firmware and driver versions
 
