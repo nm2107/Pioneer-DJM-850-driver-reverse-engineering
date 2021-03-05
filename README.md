@@ -20,6 +20,7 @@ The reverse engineering process and results are exposed in this repository.
 - [Roadmap](#roadmap)
 - [Linux support](#linux-support)
 - [Firmware and driver versions](#firmware-and-driver-versions)
+- [Thank yous](#thank-yous)
 - [Legal notices](#legal-notices)
 
 ## Roadmap
@@ -83,6 +84,14 @@ mixer with firmware version 1.10 (2013.07.31), and by using the Windows driver
 version 1.500 (2020.07.28).
 
 See the firmware and driver versions on the [official download page](https://www.pioneerdj.com/en/support/software/djm-850/).
+
+## Thank yous
+
+Thank to the following people and groups for their advices :
+
+- Franta for his article on [reverse engineering the Pioneer DJM-250MK2](https://blog.frantovo.cz/c/387/Pioneer%20DJ%20DJM-250MK2%20support%20in%20the%20Linux%20kernel).
+- Mixxx community.
+- Alsa-devel community.
 
 ## Legal notices
 
