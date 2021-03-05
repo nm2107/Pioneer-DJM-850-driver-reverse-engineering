@@ -87,7 +87,7 @@ See the firmware and driver versions on the [official download page](https://www
 
 ## Thank yous
 
-Thank to the following people and groups for their advices :
+Thanks to the following people and groups for their advices :
 
 - Franta for his article on [reverse engineering the Pioneer DJM-250MK2](https://blog.frantovo.cz/c/387/Pioneer%20DJ%20DJM-250MK2%20support%20in%20the%20Linux%20kernel).
 - Mixxx community.
